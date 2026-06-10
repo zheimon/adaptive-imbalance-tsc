@@ -1,0 +1,9 @@
+experiment:
+  name: ldam_ucr_electricdevices_patchtst_s0
+  method: ldam
+  dataset: ucr_electricdevices
+  architecture: patchtst
+  seed: 0
+data:
+  seq_len: 96
+  n_classes: 7

@@ -1,0 +1,9 @@
+experiment:
+  name: ce_stock_lstm_s1
+  method: ce
+  dataset: stock
+  architecture: lstm
+  seed: 1
+data:
+  seq_len: 60
+  n_classes: 4

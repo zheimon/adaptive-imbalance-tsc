@@ -1,0 +1,9 @@
+experiment:
+  name: adacal_stock_patchtst_s1
+  method: adacal
+  dataset: stock
+  architecture: patchtst
+  seed: 1
+data:
+  seq_len: 60
+  n_classes: 4

@@ -1,0 +1,9 @@
+experiment:
+  name: balanced_softmax_ucr_electricdevices_inception_time_s0
+  method: balanced_softmax
+  dataset: ucr_electricdevices
+  architecture: inception_time
+  seed: 0
+data:
+  seq_len: 96
+  n_classes: 7

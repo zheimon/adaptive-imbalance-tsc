@@ -1,0 +1,9 @@
+experiment:
+  name: weighted_ce_ucr_forda_lstm_s1
+  method: weighted_ce
+  dataset: ucr_forda
+  architecture: lstm
+  seed: 1
+data:
+  seq_len: 500
+  n_classes: 2

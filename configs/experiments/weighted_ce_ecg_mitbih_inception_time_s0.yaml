@@ -1,0 +1,9 @@
+experiment:
+  name: weighted_ce_ecg_mitbih_inception_time_s0
+  method: weighted_ce
+  dataset: ecg_mitbih
+  architecture: inception_time
+  seed: 0
+data:
+  seq_len: 280
+  n_classes: 5

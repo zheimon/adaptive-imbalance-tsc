@@ -1,0 +1,9 @@
+experiment:
+  name: weighted_ce_ecg_mitbih_lstm_s2
+  method: weighted_ce
+  dataset: ecg_mitbih
+  architecture: lstm
+  seed: 2
+data:
+  seq_len: 280
+  n_classes: 5

@@ -1,0 +1,9 @@
+experiment:
+  name: logit_adj_stock_inception_time_s1
+  method: logit_adj
+  dataset: stock
+  architecture: inception_time
+  seed: 1
+data:
+  seq_len: 60
+  n_classes: 4

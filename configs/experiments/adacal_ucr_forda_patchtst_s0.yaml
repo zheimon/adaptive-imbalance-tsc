@@ -1,0 +1,9 @@
+experiment:
+  name: adacal_ucr_forda_patchtst_s0
+  method: adacal
+  dataset: ucr_forda
+  architecture: patchtst
+  seed: 0
+data:
+  seq_len: 500
+  n_classes: 2

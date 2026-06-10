@@ -1,0 +1,9 @@
+experiment:
+  name: ldam_ucr_forda_lstm_s1
+  method: ldam
+  dataset: ucr_forda
+  architecture: lstm
+  seed: 1
+data:
+  seq_len: 500
+  n_classes: 2

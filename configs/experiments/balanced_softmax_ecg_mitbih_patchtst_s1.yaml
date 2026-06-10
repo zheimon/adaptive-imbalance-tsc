@@ -1,0 +1,9 @@
+experiment:
+  name: balanced_softmax_ecg_mitbih_patchtst_s1
+  method: balanced_softmax
+  dataset: ecg_mitbih
+  architecture: patchtst
+  seed: 1
+data:
+  seq_len: 280
+  n_classes: 5

@@ -1,0 +1,9 @@
+experiment:
+  name: logit_adj_ucr_electricdevices_patchtst_s0
+  method: logit_adj
+  dataset: ucr_electricdevices
+  architecture: patchtst
+  seed: 0
+data:
+  seq_len: 96
+  n_classes: 7

@@ -1,0 +1,9 @@
+experiment:
+  name: adacal_ecg_mitbih_patchtst_s0
+  method: adacal
+  dataset: ecg_mitbih
+  architecture: patchtst
+  seed: 0
+data:
+  seq_len: 280
+  n_classes: 5

@@ -1,0 +1,9 @@
+experiment:
+  name: adacal_ucr_electricdevices_lstm_s2
+  method: adacal
+  dataset: ucr_electricdevices
+  architecture: lstm
+  seed: 2
+data:
+  seq_len: 96
+  n_classes: 7

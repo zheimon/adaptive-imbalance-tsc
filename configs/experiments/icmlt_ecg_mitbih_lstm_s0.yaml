@@ -1,0 +1,9 @@
+experiment:
+  name: icmlt_ecg_mitbih_lstm_s0
+  method: icmlt
+  dataset: ecg_mitbih
+  architecture: lstm
+  seed: 0
+data:
+  seq_len: 280
+  n_classes: 5

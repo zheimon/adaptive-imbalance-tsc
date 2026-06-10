@@ -1,0 +1,9 @@
+experiment:
+  name: adacal_stock_inception_time_s0
+  method: adacal
+  dataset: stock
+  architecture: inception_time
+  seed: 0
+data:
+  seq_len: 60
+  n_classes: 4

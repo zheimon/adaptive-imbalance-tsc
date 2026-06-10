@@ -1,0 +1,19 @@
+experiment:
+  method: adacal
+  architecture: lstm
+  seed: 0
+  dataset: ecg_mitbih
+  description: 'Sensitivity: eta=0.01'
+training:
+  epochs: 100
+  batch_size: 64
+  learning_rate: 0.001
+method_params:
+  update_every: 5
+  eta: 0.01
+  alpha:
+  - 0.33
+  - 0.33
+  - 0.34
+  sensitivity_param: eta
+  sensitivity_value: 0.01

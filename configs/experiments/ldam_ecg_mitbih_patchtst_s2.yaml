@@ -1,0 +1,9 @@
+experiment:
+  name: ldam_ecg_mitbih_patchtst_s2
+  method: ldam
+  dataset: ecg_mitbih
+  architecture: patchtst
+  seed: 2
+data:
+  seq_len: 280
+  n_classes: 5

@@ -1,0 +1,55 @@
+experiment:
+  name: "{method}_{dataset}_{architecture}_s{seed}"
+  method: adacal          # ce | weighted_ce | focal | class_balanced | ldam | logit_adj | balanced_softmax | icmlt | adacal
+  dataset: ecg_mitbih     # stock | ucr_forda | ucr_electricdevices | ecg_mitbih
+  architecture: lstm      # lstm | inception_time | patchtst
+  seed: 0
+
+data:
+  root: data/processed
+  seq_len: 128
+  stock_csv: null         # required if dataset=stock
+
+model:
+  hidden_dim: 64
+  depth: 6
+  nb_filters: 32
+  patch_len: 16
+  stride: 8
+  d_model: 64
+  n_heads: 4
+  n_layers: 2
+  dropout: 0.1
+
+method_params:
+  gamma: 2.0              # focal / class_balanced
+  beta: 0.9999            # class_balanced
+  tau: 1.0                # logit_adjustment
+  max_m: 0.5              # ldam
+  s: 30                   # ldam
+  drw_epoch: 160          # ldam drw
+  eta: 0.1                # adacal
+  alpha: [0.4, 0.3, 0.3]  # adacal signal weights
+  k: 5                    # adacal lookback
+
+training:
+  epochs: 200
+  batch_size: 64
+  lr: 1e-3
+  weight_decay: 1e-4
+  scheduler: cosine
+  early_stop_patience: 30
+  grad_clip: 1.0
+
+evaluation:
+  metrics: [macro_f1, balanced_accuracy, g_mean]
+  save_predictions: true
+
+wandb:
+  enabled: false          # set true if logged in
+  project: adaptive-imbalance-tsc
+  entity: null
+
+output:
+  results_dir: experiments/results
+  checkpoint_dir: experiments/checkpoints

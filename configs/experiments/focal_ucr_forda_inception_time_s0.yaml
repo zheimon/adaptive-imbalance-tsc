@@ -1,0 +1,9 @@
+experiment:
+  name: focal_ucr_forda_inception_time_s0
+  method: focal
+  dataset: ucr_forda
+  architecture: inception_time
+  seed: 0
+data:
+  seq_len: 500
+  n_classes: 2

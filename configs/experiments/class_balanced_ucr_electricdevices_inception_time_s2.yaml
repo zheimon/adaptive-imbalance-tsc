@@ -1,0 +1,9 @@
+experiment:
+  name: class_balanced_ucr_electricdevices_inception_time_s2
+  method: class_balanced
+  dataset: ucr_electricdevices
+  architecture: inception_time
+  seed: 2
+data:
+  seq_len: 96
+  n_classes: 7

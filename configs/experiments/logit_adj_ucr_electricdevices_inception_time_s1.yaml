@@ -1,0 +1,9 @@
+experiment:
+  name: logit_adj_ucr_electricdevices_inception_time_s1
+  method: logit_adj
+  dataset: ucr_electricdevices
+  architecture: inception_time
+  seed: 1
+data:
+  seq_len: 96
+  n_classes: 7

@@ -1,0 +1,18 @@
+experiment:
+  method: adacal_no_grad_norm
+  architecture: lstm
+  seed: 2
+  dataset: ucr_forda
+  description: AdaCAL with gradient norm disabled (alpha_grad_norm=0.0)
+training:
+  epochs: 100
+  batch_size: 64
+  learning_rate: 0.001
+method_params:
+  update_every: 5
+  eta: 0.05
+  alpha:
+  - 0.5
+  - 0.0
+  - 0.5
+  ablation_variant: adacal_no_grad_norm

@@ -1,0 +1,9 @@
+experiment:
+  name: ldam_stock_inception_time_s1
+  method: ldam
+  dataset: stock
+  architecture: inception_time
+  seed: 1
+data:
+  seq_len: 60
+  n_classes: 4

@@ -1,0 +1,9 @@
+experiment:
+  name: ldam_ucr_forda_patchtst_s1
+  method: ldam
+  dataset: ucr_forda
+  architecture: patchtst
+  seed: 1
+data:
+  seq_len: 500
+  n_classes: 2

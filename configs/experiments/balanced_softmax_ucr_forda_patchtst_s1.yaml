@@ -1,0 +1,9 @@
+experiment:
+  name: balanced_softmax_ucr_forda_patchtst_s1
+  method: balanced_softmax
+  dataset: ucr_forda
+  architecture: patchtst
+  seed: 1
+data:
+  seq_len: 500
+  n_classes: 2

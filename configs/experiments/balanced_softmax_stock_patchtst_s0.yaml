@@ -1,0 +1,9 @@
+experiment:
+  name: balanced_softmax_stock_patchtst_s0
+  method: balanced_softmax
+  dataset: stock
+  architecture: patchtst
+  seed: 0
+data:
+  seq_len: 60
+  n_classes: 4

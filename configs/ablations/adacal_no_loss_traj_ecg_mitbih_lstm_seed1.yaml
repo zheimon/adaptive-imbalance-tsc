@@ -1,0 +1,18 @@
+experiment:
+  method: adacal_no_loss_traj
+  architecture: lstm
+  seed: 1
+  dataset: ecg_mitbih
+  description: AdaCAL with loss trajectory disabled (alpha_loss_traj=0.0)
+training:
+  epochs: 100
+  batch_size: 64
+  learning_rate: 0.001
+method_params:
+  update_every: 5
+  eta: 0.05
+  alpha:
+  - 0.0
+  - 0.5
+  - 0.5
+  ablation_variant: adacal_no_loss_traj

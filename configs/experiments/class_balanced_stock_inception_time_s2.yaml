@@ -1,0 +1,9 @@
+experiment:
+  name: class_balanced_stock_inception_time_s2
+  method: class_balanced
+  dataset: stock
+  architecture: inception_time
+  seed: 2
+data:
+  seq_len: 60
+  n_classes: 4

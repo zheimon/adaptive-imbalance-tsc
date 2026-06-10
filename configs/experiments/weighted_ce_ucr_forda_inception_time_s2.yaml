@@ -1,0 +1,9 @@
+experiment:
+  name: weighted_ce_ucr_forda_inception_time_s2
+  method: weighted_ce
+  dataset: ucr_forda
+  architecture: inception_time
+  seed: 2
+data:
+  seq_len: 500
+  n_classes: 2

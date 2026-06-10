@@ -1,0 +1,9 @@
+experiment:
+  name: icmlt_ucr_electricdevices_patchtst_s1
+  method: icmlt
+  dataset: ucr_electricdevices
+  architecture: patchtst
+  seed: 1
+data:
+  seq_len: 96
+  n_classes: 7

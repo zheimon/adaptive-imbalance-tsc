@@ -1,0 +1,9 @@
+experiment:
+  name: weighted_ce_stock_lstm_s2
+  method: weighted_ce
+  dataset: stock
+  architecture: lstm
+  seed: 2
+data:
+  seq_len: 60
+  n_classes: 4

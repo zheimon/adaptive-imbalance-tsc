@@ -1,0 +1,9 @@
+experiment:
+  name: balanced_softmax_stock_lstm_s0
+  method: balanced_softmax
+  dataset: stock
+  architecture: lstm
+  seed: 0
+data:
+  seq_len: 60
+  n_classes: 4

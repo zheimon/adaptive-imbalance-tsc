@@ -1,0 +1,9 @@
+experiment:
+  name: ce_stock_patchtst_s0
+  method: ce
+  dataset: stock
+  architecture: patchtst
+  seed: 0
+data:
+  seq_len: 60
+  n_classes: 4

@@ -1,0 +1,9 @@
+experiment:
+  name: class_balanced_stock_patchtst_s0
+  method: class_balanced
+  dataset: stock
+  architecture: patchtst
+  seed: 0
+data:
+  seq_len: 60
+  n_classes: 4

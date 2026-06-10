@@ -1,0 +1,9 @@
+experiment:
+  name: ce_ucr_forda_patchtst_s2
+  method: ce
+  dataset: ucr_forda
+  architecture: patchtst
+  seed: 2
+data:
+  seq_len: 500
+  n_classes: 2

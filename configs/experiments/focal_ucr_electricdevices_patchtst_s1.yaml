@@ -1,0 +1,9 @@
+experiment:
+  name: focal_ucr_electricdevices_patchtst_s1
+  method: focal
+  dataset: ucr_electricdevices
+  architecture: patchtst
+  seed: 1
+data:
+  seq_len: 96
+  n_classes: 7

@@ -1,0 +1,9 @@
+experiment:
+  name: weighted_ce_ucr_electricdevices_patchtst_s2
+  method: weighted_ce
+  dataset: ucr_electricdevices
+  architecture: patchtst
+  seed: 2
+data:
+  seq_len: 96
+  n_classes: 7

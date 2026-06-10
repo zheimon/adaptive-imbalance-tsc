@@ -1,0 +1,9 @@
+experiment:
+  name: ce_ucr_forda_lstm_s0
+  method: ce
+  dataset: ucr_forda
+  architecture: lstm
+  seed: 0
+data:
+  seq_len: 500
+  n_classes: 2

@@ -1,0 +1,9 @@
+experiment:
+  name: balanced_softmax_ecg_mitbih_inception_time_s0
+  method: balanced_softmax
+  dataset: ecg_mitbih
+  architecture: inception_time
+  seed: 0
+data:
+  seq_len: 280
+  n_classes: 5
