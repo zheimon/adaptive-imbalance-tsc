@@ -1,0 +1,26 @@
+data:
+  n_classes: 2
+  root: data/processed
+  seq_len: 500
+experiment:
+  architecture: lstm
+  dataset: ucr_forda
+  method: adacal
+  name: adacal_ue1_ucr_forda_lstm_s0
+  seed: 0
+method_params:
+  alpha:
+  - 0.4
+  - 0.3
+  - 0.3
+  eta: 0.1
+  update_every: 1
+output:
+  checkpoint_dir: experiments/ablation_checkpoints
+  results_dir: experiments/ablation_results
+training:
+  batch_size: 64
+  early_stop_patience: 20
+  epochs: 100
+  lr: 0.001
+  weight_decay: 0.0001
