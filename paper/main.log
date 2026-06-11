@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.11)  11 JUN 2026 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.11)  11 JUN 2026 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -316,76 +316,21 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 2401) in paragraph at lines 45--46
-\OT1/ptm/m/n/10 2017) down-weights well-classified ex-am-ples, fo-cus-ing
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 47--48
-[]\OT1/ptm/m/n/10 Time-series data in-tro-duces ad-di-tional com-pli-ca-tions
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 47--48
-\OT1/ptm/m/n/10 ab-sent from im-age bench-marks where most im-bal-ance
- []
-
-
-Underfull \hbox (badness 5787) in paragraph at lines 47--48
-\OT1/ptm/m/n/10 se-ries in-creases ef-fec-tive sam-ple re-dun-dancy be-yond
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 47--48
-\OT1/ptm/m/n/10 what static fre-quency counts cap-ture. Dif-fer-ent time-
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 49--50
-[]\OT1/ptm/m/n/10 We pro-pose \OT1/ptm/b/n/10 Ada-CAL \OT1/ptm/m/n/10 (Adap-tiv
-e Convergence-Aware
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}
-
-
-
-]
-<figures/fig_adacal_diagram.pdf, id=14, 860.01299pt x 498.45723pt>
+<figures/fig_adacal_diagram.pdf, id=1, 860.01299pt x 498.45723pt>
 File: figures/fig_adacal_diagram.pdf Graphic file (type pdf)
 <use figures/fig_adacal_diagram.pdf>
-Package pdftex.def Info: figures/fig_adacal_diagram.pdf  used on input line 59.
+Package pdftex.def Info: figures/fig_adacal_diagram.pdf  used on input line 53.
 
 (pdftex.def)             Requested size: 505.89pt x 293.21254pt.
 
-Underfull \hbox (badness 1087) in paragraph at lines 86--87
-\OT1/ptm/m/n/10 Let $\OMS/cmsy/m/n/10 D \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT
-1/cmr/m/n/10 (\OT1/cmr/bx/n/10 x[]\OML/cmm/m/it/10 ; y[]\OT1/cmr/m/n/10 )\OMS/c
-msy/m/n/10 g[]$ \OT1/ptm/m/n/10 be a time-series clas-si-fi-ca-tion
- []
+Underfull \vbox (badness 1400) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/base/8r.enc}
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-[]\OT1/ptm/m/n/10 The stan-dard cross-entropy loss $\OMS/cmsy/m/n/10 L[] \OT1/c
-mr/m/n/10 =
- []
 
-
-Underfull \hbox (badness 1137) in paragraph at lines 92--93
-\OMS/cmsy/m/n/10 ^^@[] [][] [] \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 (\OT1/cmr/bx
-/n/10 x[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 ^^R\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/
-10 is bi-ased when $\OML/cmm/m/it/10 ^^Z \OMS/cmsy/m/n/10 ^^] \OT1/cmr/m/n/10 1
-$\OT1/ptm/m/n/10 . For-
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 98--99
-\OT1/ptm/m/n/10 AdaCAL main-tains a per-class weight vec-tor $\OT1/cmr/bx/n/10 
-w\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) =
- []
-
-[2]
+] [2]
 Underfull \hbox (badness 10000) in paragraph at lines 110--111
  \OT1/ptm/b/n/10 Gradient-norm stag-na-tion score. \OT1/ptm/m/n/10 Let $\OML/cm
 m/m/it/10 G[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) =
@@ -419,57 +364,44 @@ File: figures/fig_datasets.pdf Graphic file (type pdf)
 <use figures/fig_datasets.pdf>
 Package pdftex.def Info: figures/fig_datasets.pdf  used on input line 197.
 (pdftex.def)             Requested size: 239.39438pt x 164.67159pt.
-[4 <./figures/fig_datasets.pdf>]
-Overfull \hbox (59.31485pt too wide) in paragraph at lines 238--254
+[4]
+Overfull \hbox (59.31485pt too wide) in paragraph at lines 242--258
  [][] 
  []
 
-
-Underfull \hbox (badness 1226) in paragraph at lines 256--257
-[]\OT1/ptm/m/n/10 Figure 3[] shows per-class F1 evo-lu-tion over train-ing
- []
-
-<figures/fig_perclass_f1.pdf, id=239, 787.39984pt x 498.56638pt>
+<figures/fig_perclass_f1.pdf, id=129, 787.39984pt x 498.56638pt>
 File: figures/fig_perclass_f1.pdf Graphic file (type pdf)
 <use figures/fig_perclass_f1.pdf>
-Package pdftex.def Info: figures/fig_perclass_f1.pdf  used on input line 260.
+Package pdftex.def Info: figures/fig_perclass_f1.pdf  used on input line 264.
 (pdftex.def)             Requested size: 239.39438pt x 151.57944pt.
-
-Underfull \vbox (badness 6300) has occurred while \output is active []
-
- [5 <./figures/fig_perclass_f1.pdf>]
-<figures/fig_convergence.pdf, id=327, 725.62984pt x 371.09892pt>
+[5 <./figures/fig_datasets.pdf>]
+<figures/fig_convergence.pdf, id=243, 725.62984pt x 371.09892pt>
 File: figures/fig_convergence.pdf Graphic file (type pdf)
 <use figures/fig_convergence.pdf>
-Package pdftex.def Info: figures/fig_convergence.pdf  used on input line 273.
+Package pdftex.def Info: figures/fig_convergence.pdf  used on input line 277.
 (pdftex.def)             Requested size: 505.89pt x 258.7199pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 []\OT1/ptm/b/n/10 Learning rate $\OML/cmm/m/it/10 ^^Q$\OT1/ptm/b/n/10 . \OT1/pt
-m/m/n/10 We grid-search $\OML/cmm/m/it/10 ^^Q \OMS/cmsy/m/n/10 2
+m/m/n/10 A grid search over $\OML/cmm/m/it/10 ^^Q \OMS/cmsy/m/n/10 2
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 02\OML/cmm
 /m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 05\OML/cmm/m/it/1
 0 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1
 /cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n
-/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OMS/cmsy/m/n/10 g$ \OT1/ptm/m/n/10 on 
-the val-i-da-tion set. Per-for-
+/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OMS/cmsy/m/n/10 g$ \OT1/ptm/m/n/10 sho
+ws sta-ble per-for-mance
  []
 
-
-Underfull \hbox (badness 2088) in paragraph at lines 312--313
-\OT1/ptm/m/n/10 con-firm-ing the ex-po-nen-tial up-date is well-conditioned.
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 318--319
+[6 <./figures/fig_perclass_f1.pdf>]
+Underfull \hbox (badness 3407) in paragraph at lines 322--323
 []\OT1/ptm/m/n/10 Figure 4[] (right panel) shows the per-class weight
  []
 
-[6] (./main.bbl
+(./main.bbl
 Underfull \hbox (badness 1005) in paragraph at lines 12--17
 []\OT1/ptm/m/n/10 Cao, K.; Wei, C.; Gaidon, A.; Arechiga, N.; and Ma,
  []
@@ -488,13 +420,13 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5673 strings out of 476106
- 89821 string characters out of 5793933
- 1947975 words of memory out of 5000000
- 27601 multiletter control sequences out of 15000+600000
- 586098 words of font info for 98 fonts, out of 8000000 for 9000
+ 5667 strings out of 476106
+ 89719 string characters out of 5793933
+ 1948975 words of memory out of 5000000
+ 27597 multiletter control sequences out of 15000+600000
+ 582788 words of font info for 94 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 57i,11n,65p,1801b,516s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,1310b,516s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -510,7 +442,7 @@ m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 439095 bytes).
+Output written on main.pdf (8 pages, 440247 bytes).
 PDF statistics:
  510 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
