@@ -1,0 +1,101 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Bagnall et~al.(2017)Bagnall, Lines, Bostrom, Large, and
+  Keogh}]{bagnall2017bakeoff}
+Bagnall, A.; Lines, J.; Bostrom, A.; Large, J.; and Keogh, E. 2017.
+\newblock The Great Time Series Classification Bake Off: A Review and
+  Experimental Evaluation of Recent Algorithmic Advances.
+\newblock \emph{Data Mining and Knowledge Discovery}, 31(3): 606--660.
+
+\bibitem[{Cao et~al.(2019)Cao, Wei, Gaidon, Arechiga, and Ma}]{cao2019ldam}
+Cao, K.; Wei, C.; Gaidon, A.; Arechiga, N.; and Ma, T. 2019.
+\newblock Learning Imbalanced Datasets with Label-Distribution-Aware Margin
+  Loss.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, volume~32, 1567--1578.
+
+\bibitem[{Chawla et~al.(2002)Chawla, Bowyer, Hall, and
+  Kegelmeyer}]{chawla2002smote}
+Chawla, N.~V.; Bowyer, K.~W.; Hall, L.~O.; and Kegelmeyer, W.~P. 2002.
+\newblock {SMOTE}: Synthetic Minority Over-Sampling Technique.
+\newblock \emph{Journal of Artificial Intelligence Research}, 16: 321--357.
+
+\bibitem[{Cui et~al.(2019)Cui, Jia, Lin, Song, and Belongie}]{cui2019class}
+Cui, Y.; Jia, M.; Lin, T.-Y.; Song, Y.; and Belongie, S. 2019.
+\newblock Class-Balanced Loss Based on Effective Number of Samples.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, 9268--9277.
+
+\bibitem[{Dau et~al.(2018)Dau, Keogh, Kamgar, Yeh, Zhu, Gharghabi,
+  Ratanamahatana, Yanping, Hu, Begum, Bagnall, Mueen, and Batista}]{dau2018ucr}
+Dau, H.~A.; Keogh, E.; Kamgar, K.; Yeh, C.-C.~M.; Zhu, Y.; Gharghabi, S.;
+  Ratanamahatana, C.~A.; Yanping; Hu, B.; Begum, N.; Bagnall, A.; Mueen, A.;
+  and Batista, G. 2018.
+\newblock The {UCR} Time Series Archive.
+\newblock In \emph{IEEE International Conference on Data Mining Workshops
+  (ICDMW)}, 1293--1297.
+
+\bibitem[{Fawaz et~al.(2020)Fawaz, Lucas, Forestier, Pelletier, Schmidt, Weber,
+  Webb, Idoumghar, Muller, and Petitjean}]{fawaz2020inceptiontime}
+Fawaz, H.~I.; Lucas, B.; Forestier, G.; Pelletier, C.; Schmidt, D.~F.; Weber,
+  J.; Webb, G.~I.; Idoumghar, L.; Muller, P.-A.; and Petitjean, F. 2020.
+\newblock {InceptionTime}: Finding {AlexNet} for Time Series Classification.
+\newblock \emph{Data Mining and Knowledge Discovery}, 34(6): 1936--1962.
+
+\bibitem[{He and Garcia(2009)}]{he2009learning}
+He, H.; and Garcia, E.~A. 2009.
+\newblock Learning from Imbalanced Data.
+\newblock \emph{IEEE Transactions on Knowledge and Data Engineering}, 21(9):
+  1263--1284.
+
+\bibitem[{Hochreiter and Schmidhuber(1997)}]{hochreiter1997lstm}
+Hochreiter, S.; and Schmidhuber, J. 1997.
+\newblock Long Short-Term Memory.
+\newblock \emph{Neural Computation}, 9(8): 1735--1780.
+
+\bibitem[{Lin et~al.(2017)Lin, Goyal, Girshick, He, and
+  Doll{\'a}r}]{lin2017focal}
+Lin, T.-Y.; Goyal, P.; Girshick, R.; He, K.; and Doll{\'a}r, P. 2017.
+\newblock Focal Loss for Dense Object Detection.
+\newblock In \emph{Proceedings of the IEEE International Conference on Computer
+  Vision (ICCV)}, 2980--2988.
+
+\bibitem[{Menon et~al.(2021)Menon, Jayasumana, Rawat, Jain, Veit, and
+  Kumar}]{menon2021logit}
+Menon, A.~K.; Jayasumana, S.; Rawat, A.~S.; Jain, H.; Veit, A.; and Kumar, S.
+  2021.
+\newblock Long-Tail Learning via Logit Adjustment.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}.
+
+\bibitem[{Moody and Mark(2001)}]{moody2001mitbih}
+Moody, G.~B.; and Mark, R.~G. 2001.
+\newblock The Impact of the {MIT-BIH} Arrhythmia Database.
+\newblock \emph{IEEE Engineering in Medicine and Biology Magazine}, 20(3):
+  45--50.
+
+\bibitem[{Nie et~al.(2023)Nie, H.~Nguyen, Sinthong, and
+  Kalagnanam}]{nie2023patchtst}
+Nie, Y.; H.~Nguyen, N.; Sinthong, P.; and Kalagnanam, J. 2023.
+\newblock A Time Series is Worth 64 Words: Long-term Forecasting with
+  Transformers.
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}.
+
+\bibitem[{Ren et~al.(2020)Ren, Yu, Sheng, Ma, Zhao, Yi, and
+  Li}]{ren2020balanced}
+Ren, J.; Yu, C.; Sheng, S.; Ma, X.; Zhao, H.; Yi, S.; and Li, H. 2020.
+\newblock Balanced Meta-Softmax for Long-Tailed Visual Recognition.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, volume~33, 4175--4186.
+
+\bibitem[{Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones,
+  Gomez, Kaiser, and Polosukhin}]{vaswani2017attention}
+Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.; Gomez, A.~N.;
+  Kaiser, {\L}.; and Polosukhin, I. 2017.
+\newblock Attention Is All You Need.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, volume~30, 5998--6008.
+
+\end{thebibliography}
