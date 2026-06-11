@@ -54,6 +54,13 @@ We propose \textbf{AdaCAL} (Adaptive Convergence-Aware Loss), a dynamic reweight
     \item \textbf{Analysis.} Empirical evidence that adaptive reweighting consistently outperforms static methods on highly imbalanced datasets, accompanied by an honest failure-mode analysis identifying conditions under which static methods remain competitive.
 \end{enumerate}
 
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_adacal_diagram.pdf}
+\caption{AdaCAL system overview. Three per-class signals (loss plateau, gradient norm, validation F1 gap) are combined into a composite signal that drives exponential multiplicative weight updates each epoch.}
+\label{fig:adacal_diagram}
+\end{figure*}
+
 %% ============================================================
 \section{Related Work}
 %% ============================================================
@@ -185,6 +192,13 @@ MIT-BIH ECG & Medical & 109{,}446 & 5 & 280 & $\approx$14$\times$ \\
 \end{tabular}
 \end{table}
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_datasets.pdf}
+\caption{Class distributions of all four benchmark datasets (log scale). Imbalance ratios (IR) range from near-balanced (FordA, IR$\approx$1) to severely imbalanced (MIT-BIH ECG, IR$\approx$14{,}000$\times$).}
+\label{fig:datasets}
+\end{figure}
+
 \textbf{Stock Chart} is an in-house dataset of labeled candlestick chart patterns (bullish/bearish engulfing, doji, hammer) extracted from daily OHLCV data. Labels are assigned by a rule-based system fully disclosed in the supplementary material, eliminating subjective annotation bias. The natural skew toward common patterns (e.g., doji appears far more frequently than hammer) creates a realistic financial imbalance scenario.
 
 \textbf{UCR FordA}~\citep{dau2018ucr} classifies engine noise recordings as faulty or normal. With near-balanced class distribution (IR $\approx$ 1), it serves as a control condition to evaluate method behavior when imbalance is absent. \textbf{UCR ElectricDevices} distinguishes seven household electrical appliances by power consumption patterns, with moderate imbalance (IR $\approx$ 5). \textbf{MIT-BIH Arrhythmia}~\citep{moody2001mitbih} is the standard ECG benchmark with five rhythm classes; its severe imbalance (IR $\approx$ 14) and safety-critical application make it the most challenging dataset.
@@ -243,8 +257,8 @@ Figure~\ref{fig:f1_evolution} shows per-class F1 evolution over training epochs 
 
 \begin{figure}[t]
 \centering
-\fbox{\rule{0pt}{1.6in}\rule{0.9\columnwidth}{0pt}}
-\caption{Per-class F1 evolution over 200 training epochs on MIT-BIH (LSTM architecture). AdaCAL (solid lines) continues improving minority class F1 after epoch 100, while static baselines plateau. Minority classes (3, 4) benefit most from adaptive reweighting.}
+\includegraphics[width=\columnwidth]{figures/fig_perclass_f1.pdf}
+\caption{Per-class F1 evolution over 200 epochs (LSTM, MIT-BIH). AdaCAL (colored lines) diverges from Vanilla CE (gray) after epoch 40 when plateau detection triggers upweighting for minority classes S, V, F. Shaded area = improvement gap.}
 \label{fig:f1_evolution}
 \end{figure}
 
@@ -254,12 +268,12 @@ AdaCAL is architecture-agnostic and improves consistently across all three archi
 
 Figure~\ref{fig:convergence_curves} shows training and validation macro-F1 convergence curves across architectures. AdaCAL converges to higher final macro-F1 on imbalanced datasets while maintaining similar convergence speed to the best static baselines.
 
-\begin{figure}[t]
+\begin{figure*}[t]
 \centering
-\fbox{\rule{0pt}{1.6in}\rule{0.9\columnwidth}{0pt}}
-\caption{Training (dashed) and validation (solid) macro-F1 convergence curves on ElectricDevices across three architectures. AdaCAL achieves higher final validation macro-F1 than all static baselines while converging at comparable speed.}
+\includegraphics[width=\textwidth]{figures/fig_convergence.pdf}
+\caption{Left: validation loss convergence curves. AdaCAL achieves lower final loss than all static baselines. Right: AdaCAL weight trajectory heatmap --- minority classes (S, V, F, Q) receive progressively higher weights as training progresses.}
 \label{fig:convergence_curves}
-\end{figure}
+\end{figure*}
 
 \subsection{Statistical Significance}
 
@@ -299,14 +313,10 @@ The loss trajectory signal is the single most important component: removing it c
 
 \subsection{Adaptive Weight Trajectories}
 
-Figure~\ref{fig:weight_trajectory} shows the per-class weight heatmap over training epochs on MIT-BIH. Weights for all classes start at 1 and diverge after epoch $\approx 40$, when loss-plateau detection first triggers for minority classes (classes 3 and 4). The minority class weights monotonically increase until reaching a stable plateau around epoch 120, at which point the plateau signal is deactivated as the model begins improving. This trajectory is highly interpretable: the weight evolution directly mirrors the convergence narrative---up-weight when struggling, stabilize when improving.
+Figure~\ref{fig:convergence_curves} (right) shows the per-class weight heatmap over training epochs on MIT-BIH. Weights for all classes start at 1 and diverge after epoch $\approx 40$, when loss-plateau detection first triggers for minority classes (classes 3 and 4). The minority class weights monotonically increase until reaching a stable plateau around epoch 120, at which point the plateau signal is deactivated as the model begins improving. This trajectory is highly interpretable: the weight evolution directly mirrors the convergence narrative---up-weight when struggling, stabilize when improving.
 
-\begin{figure}[t]
-\centering
-\fbox{\rule{0pt}{1.6in}\rule{0.9\columnwidth}{0pt}}
-\caption{Per-class weight trajectories (heatmap) over 200 epochs on MIT-BIH (LSTM). Minority classes (3, 4) receive progressively higher weights after epoch $\approx 40$ when plateau detection triggers, stabilizing around epoch 120 as they begin to improve.}
-\label{fig:weight_trajectory}
-\end{figure}
+Figure~\ref{fig:convergence_curves} (right panel) shows the per-class weight heatmap.
+
 
 \subsection{Failure Modes}
 
